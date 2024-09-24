@@ -1,4 +1,5 @@
 // Class only responsible for generating the report
+import java.io.*;
 class Report {
     private String content;
 
@@ -19,4 +20,5 @@ class FileSaver {
         writer.close();
     }
 }
+
 
